@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pracice css</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <h1>sweetalert2</h1>
+    <button onclick="showAlert()">click</button>
+
+    <script>
+        function showAlert(){
+            Swal.fire({
+            title: "Hiiii",
+            text: "This is custom alert",
+            icon: "sucess",
+            confirmButtom: "Got it"
+});
+        }
+    </script>
+</body>
+</html>
