@@ -2,3 +2,47 @@
     margin: 0;
     
 }
+button{
+    background-color: lightblue;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightgrey;
+    color: white
+}
+
+button:active{
+    transform: scale(0.80);
+    color: red;
+}
+
+input:focus{
+    border: 2px solid orange;
+    outline: none;
+    background-color: beige;
+}
+
+li:nth-child(2){
+    color:red
+}
+
+li:first-child{
+    font-weight: bold;
+}
+
+li:last-child{
+    color: greenyellow;
+}
+
+li:not(:first-child){
+    color: green;
+
+}
+
+input:checked + label{
+font-weight: bold;
+color:red 
+}
